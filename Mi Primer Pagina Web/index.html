@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Front End I</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="primary-bg-color">  
+    <!--Header y Menú de Navegación-->
+    <header class="container">
+        <img id="logo-header" src="./img/logo.svg" alt="logo">
+
+        <nav>
+            <ul class="hide-mobile nav-bar primary-color">
+                <li><a class="primary-color" href="./pricing.html">Pricing</a></li>
+                <li><a class="primary-color" href="./product.html">Product</a></li>
+                <li><a class="primary-color" href="./aboutus.html">About Us</a></li>
+                <li><a class="primary-color" href="./careers.html">Careers</a></li>
+                <li><a class="primary-color" href="./community.html">Community</a></li>
+            </ul>
+        </nav>
+        <button class="hide-mobile button-start fifth-color third-bg-color" type="submit">Get Started</button>
+        <i id="burguer" class="hide-desktop fa-solid fa-bars"></i>
+    </header>
+    
+    <!--Home-->
+    <section class="container flex-wrap-reverse">
+        <div class="flex-column-center">
+            <h1 class="title-home primary-color center-text titles">Bring everyone together to build better products.</h1>
+            <p class="text-home quarter-color center-text">Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view.</p>
+            <button class="button-start align-button fifth-color third-bg-color" type="submit">Get Started</button>
+        </div> 
+        <img class="home-img" src="./img/illustration-intro.svg" alt="imagen de gráficos">
+    </section>
+
+    <!--Sobre nosotros-->
+    <section class="container flex-wrap">
+        <div class="flex-column-center">
+            <h2 class="title-nos primary-color center-text titles">What's different about Manage?</h2>
+            <p class="quarter-color center-text text-nos">Manage provides all the functionality your teams needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
+        </div>
+        <div>
+            <div>
+                <div class="flex-row-center no-margin">
+                    <button class="button-number fifth-color third-bg-color">01</button>
+                    <h6 class="titles title-list primary-color">Track company-wide progress</h6>
+                </div>
+                <p class="text-list-nos quarter-color margin-text">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+            </div>
+            <div>
+                <div class="flex-row-center no-margin">
+                    <button class="button-number fifth-color third-bg-color">02</button>
+                    <h6 class="titles title-list primary-color">Advance built-in reports</h6>
+                </div>
+                <p class="text-list-nos quarter-color margin-text">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
+            </div>
+            <div>
+                <div class="flex-row-center no-margin">
+                    <button class="button-number fifth-color third-bg-color">03</button>
+                    <h6 class="titles title-list primary-color">Everything you need in one place</h6>
+                </div>
+                    <p class="text-list-nos quarter-color margin-text">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+            </div>           
+        </div>
+    </section>
+
+    <!--Testimonios-->
+    <section class="flex-column-center container flex-t-desk">
+        <h2 class="t-title primary-color center-text titles">What they've said</h2>
+        <div class="class-container">
+            <div class="card flex-column-center secondary-bg-color">
+                <img class="pic" src="./img/avatar-ali.png" alt="Foto Ali">
+                <p class="titles third-color">Ali Bravo</p>
+                <p class="quarter-color text-list center-text">“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
+            </div>
+            <div class="card-Anisha hide-mobile card flex-column-center secondary-bg-color">
+                <img class="pic" src="./img/avatar-anisha.png" alt="Foto Anisha">
+                <p class="titles third-color">Anisha Li</p>
+                <p class="quarter-color text-list center-text">“Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
+            </div>
+            <div class="hide-mobile card flex-column-center secondary-bg-color">
+                <img class="pic" src="./img/avatar-richard.png" alt="Foto Richard">
+                <p class="titles center-text-desk third-color">Richard Watts</p>
+                <p class="quarter-color text-list center-text">“Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone i talk to!”</p>
+            </div>
+        </div>
+        <div class="hide-desktop dot-container">
+            <span class="dot"></span>
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <div>
+            <button class="button-start third-bg-color fifth-color" type="submit">Get Started</button> 
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="third-bg-color flex-column-center footer-container flex-row-desk">
+            <div><h2 class="title-footer fifth-color">Simplify how your team works today.</h2></div>
+            <div><button class="sixth-color inverted secondary-bg-color button-start" type="submit">Get Started</button></div>
+        </div>
+        <div class="fourth-bg-color flex-column-center flex-row-desk-footer">
+            <div class="flex-column-reverse flex-row-desk-second-footer">
+                <div class="flex-footer">
+                    <img src="img/Logo-footer.svg" alt="logo">
+                    <div class="icon-container">
+                        <!--iconos redes-->
+                        <i class="fifth-color fa-brands fa-facebook"></i>
+                        <i class="fifth-color fa-brands fa-youtube"></i>
+                        <i class="fifth-color fa-brands fa-twitter"></i>
+                        <i class="fifth-color fa-brands fa-pinterest"></i>
+                        <i class="fifth-color fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div>
+                    <ul class="flex-row-sb">
+                        <div class="flex-wrap">
+                            <li><a class="fifth-color" href="./home.html">Home</a></li>
+                            <li><a class="fifth-color" href="./pricing.html">Pricing</a></li>
+                            <li><a class="fifth-color" href="./product.html">Product</a></li>
+                            <li><a class="fifth-color" href="./aboutus.html">About Us</a></li>
+                        </div>
+                        <div class="flex-wrap">
+                            <li><a class="fifth-color" href="./careers.html">Careers</a></li>
+                            <li><a class="fifth-color" href="./community.html">Community</a></li>
+                            <li><a class="fifth-color" href="./privacy.html">Privacy Policy</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div>   
+                    <form class="form-container" action="/registro" method="POST">
+                        <input class="input-box" type="email" name="email" placeholder="Update in your inbox...">
+                        <button class="button-number fifth-color third-bg-color" type="submit">Go</button>
+                    </form>
+                </div>
+            </div>
+            <p class="copyright-text quarter-color">Copyright 2020. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
